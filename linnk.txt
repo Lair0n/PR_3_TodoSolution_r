@@ -1,0 +1,1 @@
+URL: https://nuget.pkg.github.com/<OWNER>/index.json. 

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core", "Todo.Core\Todo.Core.csproj", "{37F31339-AA70-490C-9280-DC2D12301EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core.Tests", "Todo.Core.Tests\Todo.Core.Tests.csproj", "{1B69C10E-BE04-4569-B34D-A99174998790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{348D952D-93AC-47A0-BAE4-AF42A6F83134}"
+	ProjectSection(SolutionItems) = preProject
+		ci.yml = ci.yml
+		publish-package.yml = publish-package.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		linnk.txt = linnk.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37F31339-AA70-490C-9280-DC2D12301EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F31339-AA70-490C-9280-DC2D12301EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F31339-AA70-490C-9280-DC2D12301EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F31339-AA70-490C-9280-DC2D12301EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B69C10E-BE04-4569-B34D-A99174998790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B69C10E-BE04-4569-B34D-A99174998790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B69C10E-BE04-4569-B34D-A99174998790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B69C10E-BE04-4569-B34D-A99174998790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{348D952D-93AC-47A0-BAE4-AF42A6F83134} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA4C7B40-9AAF-40C4-97D3-10D680D2F5B1}
+	EndGlobalSection
+EndGlobal
